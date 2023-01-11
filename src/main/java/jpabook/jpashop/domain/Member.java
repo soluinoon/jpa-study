@@ -31,4 +31,8 @@ public class Member {
     따라서 임의접근 시 오류가 발생할 수 있음.
     만들고 건들지말자.
      */
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
